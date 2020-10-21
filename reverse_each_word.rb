@@ -1,4 +1,6 @@
+sentence = "Hello there, and how are you?"
+
 def reverse_each_word(sentence1)
-  sentence = "Hello there, and how are you?"
-  sentence.reverse
+  array = []
+  array << sentence.split.reverse
 end
