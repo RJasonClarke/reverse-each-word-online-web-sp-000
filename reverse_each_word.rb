@@ -1,7 +1,7 @@
 def reverse_each_word(array)
-  array = ["Hello there, and how are you?"]
-  array.each do |array|
-    array.reverse
+  array = []
+  array.map! do |element|
+    element.reverse
   end
-  array.join(" ")
+array.join(" ")
 end
