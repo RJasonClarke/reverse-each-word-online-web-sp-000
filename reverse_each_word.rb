@@ -1,5 +1,5 @@
 def first_reverse_each_word(array)
-  array = []
+  array = ["Hello there, and how are you?"]
   array.map!{|element| element.reverse}array.join(" ")
 end
 
