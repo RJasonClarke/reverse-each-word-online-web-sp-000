@@ -1,5 +1,5 @@
 def first_reverse_each_word(sentence1)
-  
+
 end
 
 def second_reverse_each_word(sentence2)
